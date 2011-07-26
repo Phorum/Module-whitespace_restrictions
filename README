@@ -1,29 +1,27 @@
-Module  : Whitespace Restrictions
-Version : 1.0.0
-Author  : Maurice Makaay
+Module  : @TITLE@
+Version : @VERSION@
+Author  : @AUTHOR@
 
 Sometimes users post messages that contain a lot of whitespace (e.g. to
 build up tension before posting a punch line.) When excessive whitespace
 is used, this can be terribly annoying for forum visitors
 
-This module can be used to restrict the use of whitespace in messages.
-It will trim down the whitespace at formatting time to the limit as
-configured in the module settings.
+@DESCRIPTION@
+
 
 Install:
 --------
 
 - Unpack the archive;
 
-- Move the directory "whitespace_restrictions" to the directory "mods"
+- Move the directory "@MODULE_ID@" to the directory "mods"
   within your Phorum installation;
 
 - Login as administrator in Phorum's administrative interface and
   go to the "Modules" section;
 
-- Enable the module "Whitespace Restrictions". 
+- Enable the module "@TITLE@". 
 
 - Edit the settings for the module to setup the restriction that
   you want to use for your Phorum installation. 
-
 
